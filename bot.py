@@ -15,7 +15,7 @@ def index():
 def run():
     # No...
 
-# Runw Flask server in separate thread to keep as active
+# Runs Flask server in separate thread to keep as active
 thread = Thread(target=run)
 thread.start()
 
