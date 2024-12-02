@@ -45,9 +45,9 @@ async def load_cogs():
 async def on_ready():
     print(f"Logged in as {bot.user}")
     print("Syncing commands...")
-    await load_cogs()  # Await the load_cogs coroutine now
+    await load_cogs()  # Awaits load_cogs coroutine now
     await bot.tree.sync()  # Awaits until sync
     print("Commands synced!")
 
-# Run bot
+# Runs bot
 bot.run(TOKEN)
