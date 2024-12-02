@@ -25,7 +25,7 @@ tracemalloc.start()
 # Loads token
 TOKEN = os.getenv("TOKEN")
 
-# Initialize bot with intents
+# Initializes bot with intents
 intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
